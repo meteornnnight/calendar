@@ -1,0 +1,30 @@
+body {
+    background: #ccc;
+}
+#calendar {
+    width: 50%;
+    height: 500px;
+    background: #fff;
+    margin: 5px auto;
+    position: relative;
+    border-radius: 10px;
+    border:0;
+    overflow:hidden;
+}
+ #calendar #tab {
+    box-sizing: border-box;
+    width: 70%;
+    height: 300px;
+    margin: 15px auto;
+    background: #ccc;
+    border: 0;
+    border-radius: 10px;
+}
+#calendar #content {
+    width: 50%;
+    height: 150px;
+    background: #ccc;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 0;
+}

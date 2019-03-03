@@ -1,0 +1,6 @@
+ul, li {
+    -webkit-appearance: none;
+}
+li {
+    list-style-type: none;
+}
