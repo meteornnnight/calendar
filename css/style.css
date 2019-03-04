@@ -1,30 +1,51 @@
-body {
-    background: #ccc;
-}
 #calendar {
     width: 50%;
-    height: 500px;
+    height: 600px;
     background: #fff;
     margin: 5px auto;
     position: relative;
     border-radius: 10px;
     border:0;
-    overflow:hidden;
+    position: relative;
+    background: #ccc;
 }
- #calendar #tab {
+ #flex-container {
     box-sizing: border-box;
     width: 70%;
-    height: 300px;
-    margin: 15px auto;
-    background: #ccc;
+    height: 70%;
+    position: absolute;
+    top: 2%;
+    left: 15%;
+    background: rgb(206, 228, 238);;
     border: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+#flex-container div {
+    background: #fff;
+    width: 21%;
+    border-radius: 5px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#note {
+    width: 80%;
+    height: 25%;
+    background:  rgb(206, 228, 238);
+    position: absolute;
+    bottom: 2%;
+    left: 10%;
     border-radius: 10px;
 }
-#calendar #content {
-    width: 50%;
-    height: 150px;
+#flex-container div.active {
+    color: red;
     background: #ccc;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: 0;
+}
+#note h2 {
+    padding-left: 15px;
 }
