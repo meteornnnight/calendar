@@ -1,12 +1,10 @@
 #calendar {
-    width: 50%;
-    height: 600px;
-    background: #fff;
+    width: 50vw;
+    height: 90vh;
     margin: 5px auto;
     position: relative;
     border-radius: 10px;
     border:0;
-    position: relative;
     background: #ccc;
 }
  #flex-container {
@@ -16,6 +14,7 @@
     position: absolute;
     top: 2%;
     left: 15%;
+    padding: 2%;
     background: rgb(206, 228, 238);;
     border: 0;
     border-radius: 10px;
@@ -47,5 +46,5 @@
     background: #ccc;
 }
 #note h2 {
-    padding-left: 15px;
+    padding-left: 10%;
 }
